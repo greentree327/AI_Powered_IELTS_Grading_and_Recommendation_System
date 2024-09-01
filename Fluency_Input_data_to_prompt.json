@@ -1,0 +1,19 @@
+{
+    "New Uner Input Data": {
+        "Fluency and Coherence": {
+            "Score": "The student's fluency and coherence score is 7 out of 9.",
+            "Pauses": "The student paused 8 times during the speech."
+        },
+        "Relevance": "The relevance of the content is noted as: 80.",
+        "Effective Speech Length": "The effective speech length is 20.68 words.",
+        "Speed": "The speaking speed is 87 words per minute.",
+        "Pause Fillers": "No specific pause fillers were noted.",
+        "Grammatical Accuracy": {
+            "Errors": "There are 4 grammar errors in the speech, with 50% of sentences being accurate."
+        },
+        "Transcript": "My hobby includes climbing the mountain watching the football and playing table tennis I love playing with friends and Friends are my best enemies. So I really like playing football",
+        "Word Details (pronunciation scores, pause durations if exist)": {
+            "WordDetails": "My (100) hobby (84) includes (82) climbing (100) the (100) mountain (98,70) watching (85) the (99) football (97,41) and (100) playing (91) table (93) tennis (81,32) I (35) love (58) playing (91) with (99) friends (98,29) and (86,62) Friends (95) are (93) my (92) best (100,56) enemies. (95) So (100,47) I (85) really (96) like (100) playing (97,70) football (92)"
+        }
+    }
+}

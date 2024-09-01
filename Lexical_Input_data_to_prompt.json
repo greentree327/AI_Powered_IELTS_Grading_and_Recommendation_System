@@ -1,0 +1,11 @@
+{
+    "New User Input Data": {
+        "Lexical Score": "The student's lexical score is 7 out of 9.",
+        "Word Count": "The total word count in the text is 30.",
+        "Unique Word Count": "The number of unique words used is 24.",
+        "Academic Words": "The academic words used in the text are: .",
+        "CEFR Levels": "The distribution of words across CEFR levels is as follows: 83% at A1, 7% at A2, 7% at B1, 0% at B2, 3% at C1, and 0% at C2.",
+        "Transcription": "The provided transcription is: My hobby includes climbing the mountain watching the football and playing table tennis I love playing with friends and Friends are my best enemies. So I really like playing football",
+        "Question Prompt": "The question prompt given was: What are your hobbies?"
+    }
+}
