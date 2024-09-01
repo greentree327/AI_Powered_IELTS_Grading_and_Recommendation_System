@@ -1,0 +1,82 @@
+### Instructions
+1. learn how to generate the Sample Feedback base on sample data
+2. base on what you learn, generate feedback base on New User Input data, must include examples from New User Input data
+3. Ensure feedback and recommendations are actionable and tailored to New User Input data
+4 Ensure that the only output is the final assessment results in JSON format.
+
+
+ "Sample Data": {
+    "Fluency and Coherence": {
+      "Score": "The student's fluency and coherence score is 7 out of 9.",
+      "Pauses": "The student paused 42 times during the speech."
+    },
+    "Grammatical Accuracy": {
+      "Errors": "There are 6 grammar errors in the speech, with 25% of sentences being accurate."
+    },
+    "Transcript": "That advertisement is a Pepsi advertisement and it is about if consumers like us buy more Pepsis, then we could redeem points from the cap of the bottle and when you accumulate enough points, then you could in exchange for some prize, for example more Pepsi Coca-Cola or like Pepsi merchandise. But what amazed me in that advertisement is that it was said that if we have obtained 10 million points, then we could redeem a jet, a fighting jet, which was illegal to obtain for normal citizen rights, but it was in the advertisement and it was on radio and it was in newspaper. Of course, most of my friends think it was ridiculous to have a jet, but I thought I might get one because I really like a jet. So my I bought a lot of Pepsi and I drank and I gave it to others and at the end although I got 10 million bottles, I did not get the jets, unfortunately.",
+    "Word Details(pronunciation scores , pause durations(if exist))": {
+
+```
+"That (95) advertisement (73) is (99) a (98) Pepsi (92) advertisement (84,48) and (90,29) it (100) is (69) about (100,77) if (100) consumers (74) like (100) us (95,17) buy (100) more (100) Pepsis, (100,46) then (98) we (100) could (100) redeem (94,69) points (99,25) from (100) the (94) cap (100) of (98) the (100) bottle (100,54) and (98,42) when (85) you (65) accumulate (91) enough (97) points, (100) then (88) you (100) could (98,152) in (93) exchange (89) for (100) some (99,74) prize, (95,21) for (98) example (70) more (100) Pepsi (99) Coca-Cola (65) or (89) like (90,12) Pepsi (97) merchandise. (82,32) But (94) what (97) amazed (88) me (94,41) in (100) that (74) advertisement (75) is (98,23) that (96,140) it (99) was (98) said (95) that (97,65) if (99) we (93,14) have (100) obtained (75,112) 10 (100) million (99) points, (98) then (96) we (94) could (93,32) redeem (100) a (94) jet, (96,51) a (99) fighting (100) jet, (98,59) which (89) was (98) illegal (99,114) to (99,257) obtain (74,205) for (93,70) normal (97) citizen (23) rights, (98,31) but (89) it (48) was (98) in (97) the (97) advertisement (75,82) and (72) it (0) was (57) on (98) radio (84) and (97,33) it (0) was (66) in (64) newspaper. (95,60) Of (100) course, (99) most (74) of (98) my (98) friends (95) think (79) it (54) was (97,69) ridiculous (88) to (59) have (20) a (100) jet, (95) but (100,48) I (98) thought (99,94) I (100) might (97,69) get (97) one (94,14) because (49) I (89) really (59) like (99) a (94) jet. (98,45) So (97,89) my (93,218) I (34) bought (99) a (97) lot (100) of (100) Pepsi (91) and (80) I (82) drank (94) and (84) I (100) gave (99) it (90) to (99) others (97) and (99,52) at (89) the (96) end (95,58) although (85) I (100) got (99) 10 (99) million (99,58) bottles, (99) I (97) did (85) not (98) get (100) the (100) jets, (84) unfortunately. (65)" 
+    }
+```
+ }
+### Sample Feedback 
+{
+   "Score":  7,
+  "Fluency with Occasional Repetition or Self-Correction": {
+
+    "Feedback": "The student's fluency is generally good, but there are occasional repetitions and self-corrections which can disrupt the flow of speech. For example:
+     --> The word "advertisement" appears twice in succession at the beginning: "That advertisement is a Pepsi advertisement."
+     --> The phrase "then we could" is repeated twice: "then we could redeem points" and "then we could in exchange for some prize.","
+
+    "Improvement Suggestion": " base on New User Input data
+}
+  "Hesitation for Content Preparation, Not for Finding Words or Grammar": {
+
+    "Feedback": "The student's pauses appear to be more for organizing thoughts rather than searching for words or grammatical structures, which is positive. However, the frequency of pauses can still be reduced. For instance:
+    --> There are noticeable pauses in "Pepsis, (100,46) then (98) we (100) could (100) redeem (94,69)" and "Pepsi Coca-Cola (65) or (89) like (90,12) Pepsi (97) merchandise. (82,32).",
+
+    "Improvement Suggestion":  base on New User Input data
+ }
+"Situational Appropriateness and Use of Cohesive Features": {
+
+    "Feedback": "The student needs to improve the use of cohesive devices and situational appropriateness. For example:
+    -->The transition between sentences could be smoother. Instead of saying "I bought a lot of Pepsi and I drank and I gave it to others and at the end although I got 10 million bottles, I did not get the jets, unfortunately," a more cohesive way would be, "I bought a lot of Pepsi, drank it, and gave it to others. Although I collected 10 million bottles, I did not get the jet, unfortunately." 
+
+    "Improvement Suggestion": base on New User Input data
+ }
+"Coherent and Appropriately Extended Topic Development": {
+
+    "Feedback": "The student occasionally has disjointed topic development. They should aim to extend their responses more coherently. For example:
+    -->Instead of jumping from one idea to another, as in "Of course, most of my friends think it was ridiculous to have a jet, but I thought I might get one because I really like a jet," they could provide more context or elaborate on their thoughts
+
+    "Improvement Suggestion": base on New User Input data
+ }
+}
+
+### Desired format: of Feedback Structure
+json
+{
+  "feedback": {
+    "Score": -| |-,
+    "Fluency_With_Occasional_Repetition_Or_Self_Correction": {
+      "feedback": -| |-
+      "improvement_Suggestion": -| |-
+    }
+    "Hesitation_For_Content_Preparation_Not_For_Finding_Words_Or_Grammar": {
+      "feedback": -| |-
+      "improvement_Suggestion":  -| |-
+    },
+    "Situational_Appropriateness_And_Use_Of_Cohesive_Features": {
+      "feedback":  -| |-
+      "improvement_Suggestion":  -| |-
+    },
+    "Coherent_And_Appropriately_Extended_Topic_Development": {
+      "feedback": " -| |-
+      "improvement_Suggestion":  -| |-
+    }
+  }
+}
+
+json

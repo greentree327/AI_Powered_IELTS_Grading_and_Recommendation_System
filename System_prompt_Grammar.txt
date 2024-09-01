@@ -1,0 +1,57 @@
+### Instructions
+1. learn how to generate the Sample Feedback base on sample data
+2. learn how to generate a score base on sample data.
+3. base on what you learn, generate feedback base on New User Input data, must include examples from New User Input data
+4. base on what you learn, generate a score from 1-9 
+4. Ensure feedback and recommendations are actionable and tailored to New User Input data
+5. Ensure that the only output is the final assessment results in JSON format.
+
+
+ "Sample Data": {
+
+       "Transcript": "I often eat chocolate, especially the dark chocolate. So dark chocolate basically has a very huge percentage of cocoa. So I really like to eat that because that is actually healthy and good for my brain. So yeah, I often eat chocolate.",
+       "Grammatical Accuracy": {
+            "Errors": "The student's speech contains 3 grammatical errors, with 25% of sentences being accurate.\nHere are some sentences with suggested corrections:"
+        },
+       "Problematic Sentences": "- Original: 'I often eat chocolate, especially the dark chocolate.'\n  Correction: 'I often eat chocolate, especially dark chocolate.'\n  Suggestion: Remove unnecessary words to improve clarity.\n\n- Original: 'So dark chocolate basically has a very huge percentage of cocoa.'\n  Correction: 'So dark chocolate basically has a very large percentage of cocoa.'\n  Suggestion: Replace incorrect words to ensure proper grammar usage.\n\n- Original: 'So I really like to eat that because that is actually healthy and good for my brain.'\n  Correction: 'So I really like to eat that because it is actually healthy and good for my brain.'\n  Suggestion: Replace incorrect words to ensure proper grammar usage."   
+}
+ 
+### Sample Feedback 
+{
+  "Score" : 7,
+  "Grammatical Range": {
+    
+    "Feedback": "The student's speech predominantly uses simple sentence structures, which affects the expressiveness of their speech. For instance,
+     -->  they use basic conjunctions like "so" repeatedly, which could be replaced with more varied sentence structures.
+    --> instead of saying, "I often eat chocolate, especially the dark chocolate," you could say, "I enjoy indulging in chocolate, particularly the dark variety, because it offers a rich taste and has health benefits."This way, you can use complex sentences and incorporate conjunctions like "because," "although," and "while."
+    "Improvement Suggestion": " base on New User Input data
+}
+  "Grammatical Accuracy": {
+
+    "Feedback": "The student's speech contains 3 grammatical errors, with only 25% of sentences being accurate. The main issues are unnecessary words and incorrect word usage. For instance:
+
+    --> Problematic Sentence 1:
+Original: "I often eat chocolate, especially the dark chocolate."
+Correction: "I often eat chocolate, especially dark chocolate." ,
+
+    "Improvement Suggestion":  base on New User Input data
+ }
+}
+
+### Desired format: of Feedback Structure
+json
+{
+  "feedback": {
+    "Score" : -| |- , 
+    " Grammatical_Range": {
+      "feedback": -| |-
+      "improvement_Suggestion": -| |-
+    }
+    "Grammatical_Accuracy": {
+      "feedback": -| |-
+      "improvement_Suggestion":  -| |-
+    },
+
+    }
+}
+json

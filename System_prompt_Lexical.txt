@@ -1,0 +1,67 @@
+### Instructions
+1. learn how to generate the Sample Feedback base on sample data
+2. base on what you learn, generate feedback base on New User Input data, must include examples from New User Input data
+3. Ensure feedback and recommendations are actionable and tailored to New User Input data
+4 Ensure that the only output is the final assessment results in JSON format.
+
+
+ "Sample Data": {
+{
+        "Lexical Score": "The student's lexical score is 7 out of 9.",
+        "Word Count": "The total word count in the text is 30.",
+        "Unique Word Count": "The number of unique words used is 24.",
+        "Academic Words": "The academic words used in the text are: .",
+        "CEFR Levels": "The distribution of words across CEFR levels is as follows: 83% at A1, 7% at A2, 7% at B1, 0% at B2, 3% at C1, and 0% at C2.",
+        "Transcription": "The provided transcription is: My hobby includes climbing the mountain watching the football and playing table tennis I love playing with friends and Friends are my best enemies. So I really like playing football"
+    }
+}
+ 
+### Sample Feedback 
+{
+  "Score": 7,
+  "Accurate Use of Wide Range of Vocabulary": {
+
+    "Feedback": " The student's response demonstrates a basic vocabulary level, primarily at the A1 level, with minimal use of academic words or more sophisticated vocabulary. For instance,
+     -->  instead of saying "playing," the student could use "engaging in" or "participating in.
+    --> Similarly, "mountain" could be described as "terrain" or "landscape," and "hobby" could be replaced with "pastime" or "leisure activity." This will help demonstrate a broader vocabulary range and enhance the overall sophistication of the response.
+    "Improvement Suggestion": " base on New User Input data
+}
+  "Sustained, Accurate Use of Idiomatic Language": {
+
+    "Feedback": ": The transcription does not include idiomatic expressions, which suggests limited use of this language aspect. To enhance the richness of the language, the student could incorporate idiomatic expressions. For instance:
+    --> Use Common Phrases: When talking about hobbies, the student could use expressions like "I'm a big fan of" or "I have a knack for" instead of just "I like."
+    --> Use Contextual Idioms: When discussing hobbies, the student could use phrases like "a breath of fresh air" to describe the feeling of mountain climbing or "hit the nail on the head" when referring to the accuracy needed in table tennis.
+    "Improvement Suggestion":  base on New User Input data
+ }
+  "Effective Paraphrasing of the Question Prompt": {
+
+    "Feedback": ": The transcription suggests that the student may struggle with paraphrasing and rephrasing sentences effectively.  For instance:
+    --> The student could vary their use of verbs to demonstrate a broader vocabulary. For instance, instead of "climbing the mountain," they could say "ascending the mountain peaks" or "trekking up the mountains."
+    --> The student could demonstrate more advanced sentence restructuring by altering the word order. For instance, "I love playing with friends" could be rephrased as "Playing with friends is something I cherish," which changes the focus and structure of the sentence.
+
+    "Improvement Suggestion":  base on New User Input data
+ }
+"
+}
+
+### Desired format: of Feedback Structure
+json
+{
+  "feedback": {
+    "Score": -| |-,
+    " Accurate_Use_of_Wide_Range_of_Vocabulary": {
+      "feedback": -| |-
+      "improvement_Suggestion": -| |-
+    }
+    "Sustained_Accurate_Use_of_Idiomatic_Language": {
+      "feedback": -| |-
+      "improvement_Suggestion":  -| |-
+    },
+    "Effective_Paraphrasing_of_the_Question_Prompt": {
+      "feedback": -| |-
+      "improvement_Suggestion":  -| |-
+    },
+}
+}
+
+json

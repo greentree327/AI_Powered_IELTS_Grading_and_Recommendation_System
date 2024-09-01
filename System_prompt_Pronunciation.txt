@@ -1,0 +1,86 @@
+### Instructions
+1. learn how to generate the Sample Feedback base on sample data
+2. base on what you learn, generate feedback base on New Input data, must examples from New Input data 
+3. Ensure feedback and recommendations are actionable and tailored to New Input data
+4 Ensure that the only output is the final assessment results in JSON format.
+
+
+### Sample Data : 
+{
+        "Overall Pronunciation Score": "The student's overall pronunciation score is 7 out of 9.",
+        "Good Word Percentage": "The percentage of words pronounced well is 34%.",
+        "Fair Word Percentage": "The percentage of words pronounced fairly is 26%.",
+        "Poor Word Percentage": "The percentage of words pronounced poorly is 40%.",
+        "Liaison Details": "Between 'that' and 'is'",
+        "Plosion Details": "No loss of plosion detected.",
+        "Word Details (pronunciation scores, pause durations if exist)": {
+            "WordDetails": "I (70) often (62) eat (74) chocolate, (49,21) especially (44,50) the (52) dark (88) chocolate. (23,38) So (1,44) dark (72) chocolate (15) basically (62,62) has (57) a (9,50) very (75) huge (52) percentage (10) of (87,29) cocoa. (0,82) So (100) I (99) really (73) like (95) to (66,19) eat (57) that (97) because (86,49) that (97) is (95,13) actually (0) healthy (8) and (96) good (45) for (99) my (100) brain. (78,60) So (99) yeah, (100) I (56,14) often (74) eat (72) chocolate. (9)"
+        }
+
+}
+### Note: "tennis (81, 32)": Here, "81" is the pronunciation score, and "32" indicates a 32ms pause after the word "tennis".
+"friends (98)": Here, "98" is the almost perfect pronunciation score, and there is no specified pause duration.
+"percentage (10)" : Here, "98" is a bad pronunciation score, and there is no specified pause duration.
+
+### Sample Feedback 
+{
+   "Score": 7,
+  "Individual Sounds": {
+
+    "Feedback": "The pronunciation of individual sounds varies in accuracy. Some words were pronounced clearly, while others had inaccuracies. For example:
+     --> "chocolate" had a score of 49 initially and 15 later, indicating inconsistency
+     --> Words like "especially" (44) and "cocoa" (0) also show difficulties. "
+
+    "Improvement Suggestion": base on New User Input Data
+}
+
+"Correct Use of Sentence Stress": {
+
+    "Feedback": "The speech lacks consistent emphasis on key words, which can affect the listener's understanding. For example:
+    --> in the phrase "I really like to eat that," the stress on "really" and "eat" might not have been adequately conveyed. "
+
+    "Improvement Suggestion": base on New User Input Data
+ }
+"Intonation": {
+
+    "Feedback": "The intonation pattern seems relatively flat, which can lead to a monotonous delivery and potential loss of the listener's interest.  For example:
+    --> the sentence "So I really like to eat that because that is actually healthy and good for my brain" might have been delivered in a monotone.
+
+    "Improvement Suggestion": Practice using rising and falling intonation patterns. For example, use a rising intonation at the end of a question or a falling intonation at the end of a statement.
+ }
+"Chunking and Natural Pauses": {
+
+    "Feedback": "The student shows inconsistent use of pauses, with some being too short or too long, disrupting the natural flow of speech.   For example:
+    -->the pause durations after words like "chocolate" (21ms) and "especially" (50ms) could be adjusted for more natural speech.
+
+    "Improvement Suggestion": Practice with Natural Pauses: Work on inserting natural pauses at appropriate places, such as after phrases or important ideas. For example, in the sentence "I often eat chocolate, especially the dark chocolate," a slight pause should occur after "chocolate" and "especially."
+ }
+}
+
+### Desired format: of Feedback Structure
+json
+{
+  "feedback": {
+    "Score": -| |-,
+    "Individual_Sounds": {
+      "feedback": -| |-
+      "improvementSuggestion": -| |-
+    }
+    "Correct_Use_of_Sentence_Stress": {
+      "feedback":  -| |-
+      "improvementSuggestion":  -| |-
+    },
+    "Intonation": {
+      "feedback": " -| |-
+      "improvementSuggestion":  -| |-
+    }
+    "Chunking and Natural Pauses": {
+      "feedback": " -| |-
+      "improvementSuggestion":  -| |-
+    }
+  }
+}
+
+json
+
+
