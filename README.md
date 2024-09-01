@@ -67,7 +67,7 @@ After obtaining the `result.json` file from Step 3, follow these steps to analyz
    - **`Grammar_Input_data_to_prompt.txt`**: Contains natural language summaries of grammar performance.
    - **`Pronunciation_Input_data_to_prompt.json`**: Contains detailed JSON analysis of pronunciation performance.
 
-**Step 5: Generating Tailor-Made Feedback and Recommendations**
+### Step 5: Generating Tailor-Made Feedback and Recommendations
 
 1. **Prepare System Prompts**: 
    - In OpenAI assistance, set the following system prompts:
