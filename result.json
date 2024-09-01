@@ -1,0 +1,3027 @@
+{
+  "result": {
+    "overall": 7,
+    "fluency_stats": {
+      "liaison_cnt": 1,
+      "loss_of_plosion_cnt": 0,
+      "pause_cnt": 13
+    },
+    "duration": "22.401",
+    "kernel_version": "1.4.8",
+    "pause_filler": {},
+    "numeric_duration": 22.401,
+    "pronunciation": 7,
+    "resource_version": "1.1.6",
+    "rhythm": 77,
+    "relevance": 100,
+    "fluency_coherence": 7,
+    "lexical_resource": 7,
+    "effective_speech_length": 20.21,
+    "vocabulary_stats": {
+      "word_cnt": 42,
+      "unique_word_cnt": 30,
+      "academic_words": [
+        "percentage"
+      ],
+      "CEFR_A1_pct": 79,
+      "CEFR_A2_pct": 19,
+      "CEFR_B1_pct": 0,
+      "CEFR_B2_pct": 0,
+      "CEFR_C1_pct": 0,
+      "CEFR_C2_pct": 2
+    },
+    "transcription": "I often eat chocolate, especially the dark chocolate. So dark chocolate basically has a very huge percentage of cocoa. So I really like to eat that because that is actually healthy and good for my brain. So yeah, I often eat chocolate.",
+    "grammar_stats": {
+      "grammar_error_cnt": 3,
+      "accurate_sent_pct": 25
+    },
+    "liaison": [
+      {
+        "second": {
+          "index": 28,
+          "word": "is"
+        },
+        "first": {
+          "index": 27,
+          "word": "that"
+        }
+      }
+    ],
+    "grammar": 7,
+    "sentences": [
+      {
+        "details": [
+          {
+            "phonics": [
+              {
+                "overall": 70,
+                "spell": "I",
+                "phoneme": [
+                  "a\\u026a"
+                ]
+              }
+            ],
+            "start": 52,
+            "pronunciation": 70,
+            "level": "A1",
+            "end": 67,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "a\\u026a",
+                "pronunciation": 70,
+                "span": {
+                  "end": 67,
+                  "start": 52
+                }
+              }
+            ],
+            "word": "I"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 95,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0254\\u02d0"
+                ]
+              },
+              {
+                "overall": 5,
+                "spell": "ft",
+                "phoneme": [
+                  "f"
+                ]
+              },
+              {
+                "overall": 49,
+                "spell": "en",
+                "phoneme": [
+                  "n"
+                ]
+              }
+            ],
+            "start": 67,
+            "pronunciation": 62,
+            "level": "A1",
+            "end": 104,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u0254\\u02d0",
+                "pronunciation": 95,
+                "span": {
+                  "end": 90,
+                  "start": 67
+                }
+              },
+              {
+                "phoneme": "f",
+                "pronunciation": 5,
+                "span": {
+                  "end": 98,
+                  "start": 90
+                }
+              },
+              {
+                "phoneme": "n",
+                "pronunciation": 49,
+                "span": {
+                  "end": 104,
+                  "start": 98
+                }
+              }
+            ],
+            "word": "often"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 88,
+                "spell": "ea",
+                "phoneme": [
+                  "i\\u02d0"
+                ]
+              },
+              {
+                "overall": 53,
+                "spell": "t",
+                "phoneme": [
+                  "t"
+                ]
+              }
+            ],
+            "start": 104,
+            "pronunciation": 74,
+            "level": "A1",
+            "end": 124,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "i\\u02d0",
+                "pronunciation": 88,
+                "span": {
+                  "end": 120,
+                  "start": 104
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 53,
+                "span": {
+                  "end": 124,
+                  "start": 120
+                }
+              }
+            ],
+            "word": "eat"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 90,
+                "spell": "ch",
+                "phoneme": [
+                  "t\\u0283"
+                ]
+              },
+              {
+                "overall": 32,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0251\\u02d0"
+                ]
+              },
+              {
+                "overall": 1,
+                "spell": "c",
+                "phoneme": [
+                  "k"
+                ]
+              },
+              {
+                "overall": 52,
+                "spell": "ol",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 40,
+                "spell": "a",
+                "phoneme": [
+                  "\\u026a"
+                ]
+              },
+              {
+                "overall": 52,
+                "spell": "te",
+                "phoneme": [
+                  "t"
+                ]
+              }
+            ],
+            "start": 124,
+            "pronunciation": 49,
+            "level": "A2",
+            "end": 175,
+            "pause": {
+              "duration": 21,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "t\\u0283",
+                "pronunciation": 90,
+                "span": {
+                  "end": 136,
+                  "start": 124
+                }
+              },
+              {
+                "phoneme": "\\u0251\\u02d0",
+                "pronunciation": 32,
+                "span": {
+                  "end": 150,
+                  "start": 136
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 1,
+                "span": {
+                  "end": 153,
+                  "start": 150
+                }
+              },
+              {
+                "phoneme": "l",
+                "pronunciation": 52,
+                "span": {
+                  "end": 158,
+                  "start": 153
+                }
+              },
+              {
+                "phoneme": "\\u026a",
+                "pronunciation": 40,
+                "span": {
+                  "end": 169,
+                  "start": 158
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 52,
+                "span": {
+                  "end": 175,
+                  "start": 169
+                }
+              }
+            ],
+            "word": "chocolate,"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 36,
+                "spell": "e",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              },
+              {
+                "overall": 83,
+                "spell": "s",
+                "phoneme": [
+                  "s"
+                ]
+              },
+              {
+                "overall": 98,
+                "spell": "p",
+                "phoneme": [
+                  "p"
+                ]
+              },
+              {
+                "overall": 54,
+                "spell": "e",
+                "phoneme": [
+                  "e"
+                ]
+              },
+              {
+                "overall": 23,
+                "spell": "ci",
+                "phoneme": [
+                  "\\u0283"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "a",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              },
+              {
+                "overall": 1,
+                "spell": "ll",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 16,
+                "spell": "y",
+                "phoneme": [
+                  "i"
+                ]
+              }
+            ],
+            "start": 196,
+            "pronunciation": 44,
+            "level": "A1",
+            "end": 327,
+            "pause": {
+              "duration": 50,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 36,
+                "span": {
+                  "end": 239,
+                  "start": 196
+                }
+              },
+              {
+                "phoneme": "s",
+                "pronunciation": 83,
+                "span": {
+                  "end": 253,
+                  "start": 239
+                }
+              },
+              {
+                "phoneme": "p",
+                "pronunciation": 98,
+                "span": {
+                  "end": 260,
+                  "start": 253
+                }
+              },
+              {
+                "phoneme": "e",
+                "pronunciation": 54,
+                "span": {
+                  "end": 263,
+                  "start": 260
+                }
+              },
+              {
+                "phoneme": "\\u0283",
+                "pronunciation": 23,
+                "span": {
+                  "end": 281,
+                  "start": 263
+                }
+              },
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 0,
+                "span": {
+                  "end": 284,
+                  "start": 281
+                }
+              },
+              {
+                "phoneme": "l",
+                "pronunciation": 1,
+                "span": {
+                  "end": 289,
+                  "start": 284
+                }
+              },
+              {
+                "phoneme": "i",
+                "pronunciation": 16,
+                "span": {
+                  "end": 327,
+                  "start": 289
+                }
+              }
+            ],
+            "word": "especially"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 81,
+                "spell": "th",
+                "phoneme": [
+                  "\\u00f0"
+                ]
+              },
+              {
+                "overall": 11,
+                "spell": "e",
+                "phoneme": [
+                  "i\\u02d0"
+                ]
+              }
+            ],
+            "start": 377,
+            "pronunciation": 52,
+            "level": "A1",
+            "end": 388,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u00f0",
+                "pronunciation": 81,
+                "span": {
+                  "end": 384,
+                  "start": 377
+                }
+              },
+              {
+                "phoneme": "i\\u02d0",
+                "pronunciation": 11,
+                "span": {
+                  "end": 388,
+                  "start": 384
+                }
+              }
+            ],
+            "word": "the"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 95,
+                "spell": "d",
+                "phoneme": [
+                  "d"
+                ]
+              },
+              {
+                "overall": 77,
+                "spell": "ar",
+                "phoneme": [
+                  "\\u0251\\u02d0"
+                ]
+              },
+              {
+                "overall": 88,
+                "spell": "k",
+                "phoneme": [
+                  "k"
+                ]
+              }
+            ],
+            "start": 388,
+            "pronunciation": 88,
+            "level": "A1",
+            "end": 432,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "d",
+                "pronunciation": 95,
+                "span": {
+                  "end": 406,
+                  "start": 388
+                }
+              },
+              {
+                "phoneme": "\\u0251\\u02d0",
+                "pronunciation": 77,
+                "span": {
+                  "end": 421,
+                  "start": 406
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 88,
+                "span": {
+                  "end": 432,
+                  "start": 421
+                }
+              }
+            ],
+            "word": "dark"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 53,
+                "spell": "ch",
+                "phoneme": [
+                  "t\\u0283"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0251\\u02d0"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "c",
+                "phoneme": [
+                  "k"
+                ]
+              },
+              {
+                "overall": 88,
+                "spell": "ol",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 55,
+                "spell": "a",
+                "phoneme": [
+                  "\\u026a"
+                ]
+              },
+              {
+                "overall": 29,
+                "spell": "te",
+                "phoneme": [
+                  "t"
+                ]
+              }
+            ],
+            "start": 432,
+            "pronunciation": 23,
+            "level": "A2",
+            "end": 477,
+            "pause": {
+              "duration": 38,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "t\\u0283",
+                "pronunciation": 53,
+                "span": {
+                  "end": 441,
+                  "start": 432
+                }
+              },
+              {
+                "phoneme": "\\u0251\\u02d0",
+                "pronunciation": 0,
+                "span": {
+                  "end": 454,
+                  "start": 441
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 0,
+                "span": {
+                  "end": 457,
+                  "start": 454
+                }
+              },
+              {
+                "phoneme": "l",
+                "pronunciation": 88,
+                "span": {
+                  "end": 465,
+                  "start": 457
+                }
+              },
+              {
+                "phoneme": "\\u026a",
+                "pronunciation": 55,
+                "span": {
+                  "end": 473,
+                  "start": 465
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 29,
+                "span": {
+                  "end": 477,
+                  "start": 473
+                }
+              }
+            ],
+            "word": "chocolate."
+          }
+        ],
+        "sentence": "I often eat chocolate, especially the dark chocolate.",
+        "end": 477,
+        "pronunciation": 58,
+        "start": 52,
+        "grammar": {
+          "corrected": "I often eat chocolate, especially dark chocolate.",
+          "operations": [
+            {
+              "end1": 6,
+              "end2": 4,
+              "start1": 5,
+              "start2": 4,
+              "type": "delete"
+            }
+          ]
+        }
+      },
+      {
+        "details": [
+          {
+            "phonics": [
+              {
+                "overall": 1,
+                "spell": "S",
+                "phoneme": [
+                  "s"
+                ]
+              },
+              {
+                "overall": 2,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0259\\u028a"
+                ]
+              }
+            ],
+            "start": 515,
+            "pronunciation": 1,
+            "level": "A1",
+            "end": 525,
+            "pause": {
+              "duration": 44,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "s",
+                "pronunciation": 1,
+                "span": {
+                  "end": 520,
+                  "start": 515
+                }
+              },
+              {
+                "phoneme": "\\u0259\\u028a",
+                "pronunciation": 2,
+                "span": {
+                  "end": 525,
+                  "start": 520
+                }
+              }
+            ],
+            "word": "So"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 79,
+                "spell": "d",
+                "phoneme": [
+                  "d"
+                ]
+              },
+              {
+                "overall": 51,
+                "spell": "a",
+                "phoneme": [
+                  "\\u0251\\u02d0"
+                ]
+              },
+              {
+                "overall": 82,
+                "spell": "r",
+                "phoneme": [
+                  "r"
+                ]
+              },
+              {
+                "overall": 83,
+                "spell": "k",
+                "phoneme": [
+                  "k"
+                ]
+              }
+            ],
+            "start": 569,
+            "pronunciation": 72,
+            "level": "A1",
+            "end": 602,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "d",
+                "pronunciation": 79,
+                "span": {
+                  "end": 577,
+                  "start": 569
+                }
+              },
+              {
+                "phoneme": "\\u0251\\u02d0",
+                "pronunciation": 51,
+                "span": {
+                  "end": 588,
+                  "start": 577
+                }
+              },
+              {
+                "phoneme": "r",
+                "pronunciation": 82,
+                "span": {
+                  "end": 596,
+                  "start": 588
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 83,
+                "span": {
+                  "end": 602,
+                  "start": 596
+                }
+              }
+            ],
+            "word": "dark"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 44,
+                "spell": "ch",
+                "phoneme": [
+                  "t\\u0283"
+                ]
+              },
+              {
+                "overall": 28,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0251\\u02d0"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "c",
+                "phoneme": [
+                  "k"
+                ]
+              },
+              {
+                "overall": 8,
+                "spell": "ol",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 23,
+                "spell": "a",
+                "phoneme": [
+                  "\\u026a"
+                ]
+              },
+              {
+                "overall": 16,
+                "spell": "te",
+                "phoneme": [
+                  "t"
+                ]
+              }
+            ],
+            "start": 602,
+            "pronunciation": 15,
+            "level": "A2",
+            "end": 657,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "t\\u0283",
+                "pronunciation": 44,
+                "span": {
+                  "end": 608,
+                  "start": 602
+                }
+              },
+              {
+                "phoneme": "\\u0251\\u02d0",
+                "pronunciation": 28,
+                "span": {
+                  "end": 619,
+                  "start": 608
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 0,
+                "span": {
+                  "end": 622,
+                  "start": 619
+                }
+              },
+              {
+                "phoneme": "l",
+                "pronunciation": 8,
+                "span": {
+                  "end": 638,
+                  "start": 622
+                }
+              },
+              {
+                "phoneme": "\\u026a",
+                "pronunciation": 23,
+                "span": {
+                  "end": 646,
+                  "start": 638
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 16,
+                "span": {
+                  "end": 657,
+                  "start": 646
+                }
+              }
+            ],
+            "word": "chocolate"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 97,
+                "spell": "b",
+                "phoneme": [
+                  "b"
+                ]
+              },
+              {
+                "overall": 99,
+                "spell": "a",
+                "phoneme": [
+                  "e\\u026a"
+                ]
+              },
+              {
+                "overall": 100,
+                "spell": "s",
+                "phoneme": [
+                  "s"
+                ]
+              },
+              {
+                "overall": 98,
+                "spell": "i",
+                "phoneme": [
+                  "\\u026a"
+                ]
+              },
+              {
+                "overall": 33,
+                "spell": "ca",
+                "phoneme": [
+                  "k"
+                ]
+              },
+              {
+                "overall": 40,
+                "spell": "ll",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 2,
+                "spell": "y",
+                "phoneme": [
+                  "i"
+                ]
+              }
+            ],
+            "start": 657,
+            "pronunciation": 62,
+            "level": "A2",
+            "end": 738,
+            "pause": {
+              "duration": 62,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "b",
+                "pronunciation": 97,
+                "span": {
+                  "end": 665,
+                  "start": 657
+                }
+              },
+              {
+                "phoneme": "e\\u026a",
+                "pronunciation": 99,
+                "span": {
+                  "end": 672,
+                  "start": 665
+                }
+              },
+              {
+                "phoneme": "s",
+                "pronunciation": 100,
+                "span": {
+                  "end": 685,
+                  "start": 672
+                }
+              },
+              {
+                "phoneme": "\\u026a",
+                "pronunciation": 98,
+                "span": {
+                  "end": 690,
+                  "start": 685
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 33,
+                "span": {
+                  "end": 697,
+                  "start": 690
+                }
+              },
+              {
+                "phoneme": "l",
+                "pronunciation": 40,
+                "span": {
+                  "end": 709,
+                  "start": 697
+                }
+              },
+              {
+                "phoneme": "i",
+                "pronunciation": 2,
+                "span": {
+                  "end": 738,
+                  "start": 709
+                }
+              }
+            ],
+            "word": "basically"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 100,
+                "spell": "h",
+                "phoneme": [
+                  "h"
+                ]
+              },
+              {
+                "overall": 33,
+                "spell": "a",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "s",
+                "phoneme": [
+                  "z"
+                ]
+              }
+            ],
+            "start": 800,
+            "pronunciation": 57,
+            "level": "A1",
+            "end": 828,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "h",
+                "pronunciation": 100,
+                "span": {
+                  "end": 813,
+                  "start": 800
+                }
+              },
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 33,
+                "span": {
+                  "end": 824,
+                  "start": 813
+                }
+              },
+              {
+                "phoneme": "z",
+                "pronunciation": 0,
+                "span": {
+                  "end": 828,
+                  "start": 824
+                }
+              }
+            ],
+            "word": "has"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 9,
+                "spell": "a",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              }
+            ],
+            "start": 828,
+            "pronunciation": 9,
+            "level": "A1",
+            "end": 850,
+            "pause": {
+              "duration": 50,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 9,
+                "span": {
+                  "end": 850,
+                  "start": 828
+                }
+              }
+            ],
+            "word": "a"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 54,
+                "spell": "v",
+                "phoneme": [
+                  "v"
+                ]
+              },
+              {
+                "overall": 50,
+                "spell": "e",
+                "phoneme": [
+                  "e"
+                ]
+              },
+              {
+                "overall": 58,
+                "spell": "r",
+                "phoneme": [
+                  "r"
+                ]
+              },
+              {
+                "overall": 99,
+                "spell": "y",
+                "phoneme": [
+                  "\\u026a"
+                ]
+              }
+            ],
+            "start": 900,
+            "pronunciation": 75,
+            "level": "A1",
+            "end": 930,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "v",
+                "pronunciation": 54,
+                "span": {
+                  "end": 906,
+                  "start": 900
+                }
+              },
+              {
+                "phoneme": "e",
+                "pronunciation": 50,
+                "span": {
+                  "end": 911,
+                  "start": 906
+                }
+              },
+              {
+                "phoneme": "r",
+                "pronunciation": 58,
+                "span": {
+                  "end": 916,
+                  "start": 911
+                }
+              },
+              {
+                "phoneme": "\\u026a",
+                "pronunciation": 99,
+                "span": {
+                  "end": 930,
+                  "start": 916
+                }
+              }
+            ],
+            "word": "very"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 32,
+                "spell": "h",
+                "phoneme": [
+                  "h"
+                ]
+              },
+              {
+                "overall": 59,
+                "spell": "u",
+                "phoneme": [
+                  "j"
+                ]
+              },
+              {
+                "overall": 98,
+                "spell": "g",
+                "phoneme": [
+                  "u\\u02d0"
+                ]
+              },
+              {
+                "overall": 11,
+                "spell": "e",
+                "phoneme": [
+                  "d\\u0292"
+                ]
+              }
+            ],
+            "start": 930,
+            "pronunciation": 52,
+            "level": "A1",
+            "end": 980,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "h",
+                "pronunciation": 32,
+                "span": {
+                  "end": 954,
+                  "start": 930
+                }
+              },
+              {
+                "phoneme": "j",
+                "pronunciation": 59,
+                "span": {
+                  "end": 957,
+                  "start": 954
+                }
+              },
+              {
+                "phoneme": "u\\u02d0",
+                "pronunciation": 98,
+                "span": {
+                  "end": 968,
+                  "start": 957
+                }
+              },
+              {
+                "phoneme": "d\\u0292",
+                "pronunciation": 11,
+                "span": {
+                  "end": 980,
+                  "start": 968
+                }
+              }
+            ],
+            "word": "huge"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 8,
+                "spell": "p",
+                "phoneme": [
+                  "p"
+                ]
+              },
+              {
+                "overall": 1,
+                "spell": "er",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              },
+              {
+                "overall": 2,
+                "spell": "c",
+                "phoneme": [
+                  "s"
+                ]
+              },
+              {
+                "overall": 21,
+                "spell": "e",
+                "phoneme": [
+                  "e"
+                ]
+              },
+              {
+                "overall": 49,
+                "spell": "n",
+                "phoneme": [
+                  "n"
+                ]
+              },
+              {
+                "overall": 52,
+                "spell": "t",
+                "phoneme": [
+                  "t"
+                ]
+              },
+              {
+                "overall": 15,
+                "spell": "a",
+                "phoneme": [
+                  "\\u026a"
+                ]
+              },
+              {
+                "overall": 23,
+                "spell": "ge",
+                "phoneme": [
+                  "d\\u0292"
+                ]
+              }
+            ],
+            "start": 980,
+            "pronunciation": 10,
+            "level": "A2",
+            "end": 1035,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "p",
+                "pronunciation": 8,
+                "span": {
+                  "end": 985,
+                  "start": 980
+                }
+              },
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 1,
+                "span": {
+                  "end": 995,
+                  "start": 985
+                }
+              },
+              {
+                "phoneme": "s",
+                "pronunciation": 2,
+                "span": {
+                  "end": 1006,
+                  "start": 995
+                }
+              },
+              {
+                "phoneme": "e",
+                "pronunciation": 21,
+                "span": {
+                  "end": 1010,
+                  "start": 1006
+                }
+              },
+              {
+                "phoneme": "n",
+                "pronunciation": 49,
+                "span": {
+                  "end": 1015,
+                  "start": 1010
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 52,
+                "span": {
+                  "end": 1020,
+                  "start": 1015
+                }
+              },
+              {
+                "phoneme": "\\u026a",
+                "pronunciation": 15,
+                "span": {
+                  "end": 1028,
+                  "start": 1020
+                }
+              },
+              {
+                "phoneme": "d\\u0292",
+                "pronunciation": 23,
+                "span": {
+                  "end": 1035,
+                  "start": 1028
+                }
+              }
+            ],
+            "word": "percentage"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 76,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0252"
+                ]
+              },
+              {
+                "overall": 94,
+                "spell": "f",
+                "phoneme": [
+                  "v"
+                ]
+              }
+            ],
+            "start": 1035,
+            "pronunciation": 87,
+            "level": "A1",
+            "end": 1062,
+            "pause": {
+              "duration": 29,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u0252",
+                "pronunciation": 76,
+                "span": {
+                  "end": 1046,
+                  "start": 1035
+                }
+              },
+              {
+                "phoneme": "v",
+                "pronunciation": 94,
+                "span": {
+                  "end": 1062,
+                  "start": 1046
+                }
+              }
+            ],
+            "word": "of"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 0,
+                "spell": "c",
+                "phoneme": [
+                  "k"
+                ]
+              },
+              {
+                "overall": 6,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0259\\u028a"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "c",
+                "phoneme": [
+                  "k"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "oa",
+                "phoneme": [
+                  "\\u0259\\u028a"
+                ]
+              }
+            ],
+            "start": 1091,
+            "pronunciation": 0,
+            "level": "C2",
+            "end": 1117,
+            "pause": {
+              "duration": 82,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "k",
+                "pronunciation": 0,
+                "span": {
+                  "end": 1096,
+                  "start": 1091
+                }
+              },
+              {
+                "phoneme": "\\u0259\\u028a",
+                "pronunciation": 6,
+                "span": {
+                  "end": 1105,
+                  "start": 1096
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 0,
+                "span": {
+                  "end": 1114,
+                  "start": 1105
+                }
+              },
+              {
+                "phoneme": "\\u0259\\u028a",
+                "pronunciation": 0,
+                "span": {
+                  "end": 1117,
+                  "start": 1114
+                }
+              }
+            ],
+            "word": "cocoa."
+          }
+        ],
+        "sentence": "So dark chocolate basically has a very huge percentage of cocoa.",
+        "end": 1117,
+        "pronunciation": 40,
+        "start": 515,
+        "grammar": {
+          "corrected": "So dark chocolate basically has a very large percentage of cocoa.",
+          "operations": [
+            {
+              "end1": 8,
+              "end2": 8,
+              "start1": 7,
+              "start2": 7,
+              "type": "replace"
+            }
+          ]
+        }
+      },
+      {
+        "details": [
+          {
+            "phonics": [
+              {
+                "overall": 99,
+                "spell": "S",
+                "phoneme": [
+                  "s"
+                ]
+              },
+              {
+                "overall": 100,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0259\\u028a"
+                ]
+              }
+            ],
+            "start": 1199,
+            "pronunciation": 100,
+            "level": "A1",
+            "end": 1230,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "s",
+                "pronunciation": 99,
+                "span": {
+                  "end": 1216,
+                  "start": 1199
+                }
+              },
+              {
+                "phoneme": "\\u0259\\u028a",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1230,
+                  "start": 1216
+                }
+              }
+            ],
+            "word": "So"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 99,
+                "spell": "I",
+                "phoneme": [
+                  "a\\u026a"
+                ]
+              }
+            ],
+            "start": 1230,
+            "pronunciation": 99,
+            "level": "A1",
+            "end": 1246,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "a\\u026a",
+                "pronunciation": 99,
+                "span": {
+                  "end": 1246,
+                  "start": 1230
+                }
+              }
+            ],
+            "word": "I"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 79,
+                "spell": "r",
+                "phoneme": [
+                  "r"
+                ]
+              },
+              {
+                "overall": 25,
+                "spell": "ea",
+                "phoneme": [
+                  "i\\u02d0"
+                ]
+              },
+              {
+                "overall": 97,
+                "spell": "ll",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 75,
+                "spell": "y",
+                "phoneme": [
+                  "i"
+                ]
+              }
+            ],
+            "start": 1246,
+            "pronunciation": 73,
+            "level": "A1",
+            "end": 1264,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "r",
+                "pronunciation": 79,
+                "span": {
+                  "end": 1251,
+                  "start": 1246
+                }
+              },
+              {
+                "phoneme": "i\\u02d0",
+                "pronunciation": 25,
+                "span": {
+                  "end": 1254,
+                  "start": 1251
+                }
+              },
+              {
+                "phoneme": "l",
+                "pronunciation": 97,
+                "span": {
+                  "end": 1260,
+                  "start": 1254
+                }
+              },
+              {
+                "phoneme": "i",
+                "pronunciation": 75,
+                "span": {
+                  "end": 1264,
+                  "start": 1260
+                }
+              }
+            ],
+            "word": "really"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 99,
+                "spell": "l",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 97,
+                "spell": "i",
+                "phoneme": [
+                  "a\\u026a"
+                ]
+              },
+              {
+                "overall": 87,
+                "spell": "ke",
+                "phoneme": [
+                  "k"
+                ]
+              }
+            ],
+            "start": 1264,
+            "pronunciation": 95,
+            "level": "A1",
+            "end": 1297,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "l",
+                "pronunciation": 99,
+                "span": {
+                  "end": 1275,
+                  "start": 1264
+                }
+              },
+              {
+                "phoneme": "a\\u026a",
+                "pronunciation": 97,
+                "span": {
+                  "end": 1286,
+                  "start": 1275
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 87,
+                "span": {
+                  "end": 1297,
+                  "start": 1286
+                }
+              }
+            ],
+            "word": "like"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 16,
+                "spell": "t",
+                "phoneme": [
+                  "t"
+                ]
+              },
+              {
+                "overall": 93,
+                "spell": "o",
+                "phoneme": [
+                  "u\\u02d0"
+                ]
+              }
+            ],
+            "start": 1297,
+            "pronunciation": 66,
+            "level": "A1",
+            "end": 1325,
+            "pause": {
+              "duration": 19,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "t",
+                "pronunciation": 16,
+                "span": {
+                  "end": 1304,
+                  "start": 1297
+                }
+              },
+              {
+                "phoneme": "u\\u02d0",
+                "pronunciation": 93,
+                "span": {
+                  "end": 1325,
+                  "start": 1304
+                }
+              }
+            ],
+            "word": "to"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 89,
+                "spell": "ea",
+                "phoneme": [
+                  "i\\u02d0"
+                ]
+              },
+              {
+                "overall": 4,
+                "spell": "t",
+                "phoneme": [
+                  "t"
+                ]
+              }
+            ],
+            "start": 1344,
+            "pronunciation": 57,
+            "level": "A1",
+            "end": 1365,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "i\\u02d0",
+                "pronunciation": 89,
+                "span": {
+                  "end": 1359,
+                  "start": 1344
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 4,
+                "span": {
+                  "end": 1365,
+                  "start": 1359
+                }
+              }
+            ],
+            "word": "eat"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 100,
+                "spell": "th",
+                "phoneme": [
+                  "\\u00f0"
+                ]
+              },
+              {
+                "overall": 100,
+                "spell": "a",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              },
+              {
+                "overall": 85,
+                "spell": "t",
+                "phoneme": [
+                  "t"
+                ]
+              }
+            ],
+            "start": 1370,
+            "pronunciation": 97,
+            "level": "A1",
+            "end": 1402,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u00f0",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1378,
+                  "start": 1370
+                }
+              },
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1393,
+                  "start": 1378
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 85,
+                "span": {
+                  "end": 1402,
+                  "start": 1393
+                }
+              }
+            ],
+            "word": "that"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 93,
+                "spell": "b",
+                "phoneme": [
+                  "b"
+                ]
+              },
+              {
+                "overall": 98,
+                "spell": "e",
+                "phoneme": [
+                  "\\u026a"
+                ]
+              },
+              {
+                "overall": 53,
+                "spell": "c",
+                "phoneme": [
+                  "k"
+                ]
+              },
+              {
+                "overall": 66,
+                "spell": "au",
+                "phoneme": [
+                  "\\u0252"
+                ]
+              },
+              {
+                "overall": 99,
+                "spell": "se",
+                "phoneme": [
+                  "z"
+                ]
+              }
+            ],
+            "start": 1402,
+            "pronunciation": 86,
+            "level": "A1",
+            "end": 1451,
+            "pause": {
+              "duration": 49,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "b",
+                "pronunciation": 93,
+                "span": {
+                  "end": 1407,
+                  "start": 1402
+                }
+              },
+              {
+                "phoneme": "\\u026a",
+                "pronunciation": 98,
+                "span": {
+                  "end": 1411,
+                  "start": 1407
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 53,
+                "span": {
+                  "end": 1419,
+                  "start": 1411
+                }
+              },
+              {
+                "phoneme": "\\u0252",
+                "pronunciation": 66,
+                "span": {
+                  "end": 1430,
+                  "start": 1419
+                }
+              },
+              {
+                "phoneme": "z",
+                "pronunciation": 99,
+                "span": {
+                  "end": 1451,
+                  "start": 1430
+                }
+              }
+            ],
+            "word": "because"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 94,
+                "spell": "th",
+                "phoneme": [
+                  "\\u00f0"
+                ]
+              },
+              {
+                "overall": 99,
+                "spell": "a",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              },
+              {
+                "overall": 95,
+                "spell": "t",
+                "phoneme": [
+                  "t"
+                ]
+              }
+            ],
+            "start": 1500,
+            "pronunciation": 97,
+            "level": "A1",
+            "end": 1527,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u00f0",
+                "pronunciation": 94,
+                "span": {
+                  "end": 1507,
+                  "start": 1500
+                }
+              },
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 99,
+                "span": {
+                  "end": 1519,
+                  "start": 1507
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 95,
+                "span": {
+                  "end": 1527,
+                  "start": 1519
+                }
+              }
+            ],
+            "word": "that"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 92,
+                "spell": "i",
+                "phoneme": [
+                  "\\u026a"
+                ]
+              },
+              {
+                "overall": 97,
+                "spell": "s",
+                "phoneme": [
+                  "z"
+                ]
+              }
+            ],
+            "start": 1527,
+            "pronunciation": 95,
+            "level": "A1",
+            "end": 1548,
+            "pause": {
+              "duration": 13,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u026a",
+                "pronunciation": 92,
+                "span": {
+                  "end": 1533,
+                  "start": 1527
+                }
+              },
+              {
+                "phoneme": "z",
+                "pronunciation": 97,
+                "span": {
+                  "end": 1548,
+                  "start": 1533
+                }
+              }
+            ],
+            "word": "is"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 0,
+                "spell": "a",
+                "phoneme": [
+                  "\\u00e6"
+                ]
+              },
+              {
+                "overall": 3,
+                "spell": "c",
+                "phoneme": [
+                  "k"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "t",
+                "phoneme": [
+                  "t\\u0283"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "u",
+                "phoneme": [
+                  "\\u028a"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "all",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 19,
+                "spell": "y",
+                "phoneme": [
+                  "i"
+                ]
+              }
+            ],
+            "start": 1561,
+            "pronunciation": 0,
+            "level": "A1",
+            "end": 1591,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u00e6",
+                "pronunciation": 0,
+                "span": {
+                  "end": 1564,
+                  "start": 1561
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 3,
+                "span": {
+                  "end": 1574,
+                  "start": 1564
+                }
+              },
+              {
+                "phoneme": "t\\u0283",
+                "pronunciation": 0,
+                "span": {
+                  "end": 1578,
+                  "start": 1574
+                }
+              },
+              {
+                "phoneme": "\\u028a",
+                "pronunciation": 0,
+                "span": {
+                  "end": 1581,
+                  "start": 1578
+                }
+              },
+              {
+                "phoneme": "l",
+                "pronunciation": 0,
+                "span": {
+                  "end": 1585,
+                  "start": 1581
+                }
+              },
+              {
+                "phoneme": "i",
+                "pronunciation": 19,
+                "span": {
+                  "end": 1591,
+                  "start": 1585
+                }
+              }
+            ],
+            "word": "actually"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 45,
+                "spell": "h",
+                "phoneme": [
+                  "h"
+                ]
+              },
+              {
+                "overall": 11,
+                "spell": "ea",
+                "phoneme": [
+                  "e"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "l",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 3,
+                "spell": "th",
+                "phoneme": [
+                  "\\u03b8"
+                ]
+              },
+              {
+                "overall": 69,
+                "spell": "y",
+                "phoneme": [
+                  "i"
+                ]
+              }
+            ],
+            "start": 1591,
+            "pronunciation": 8,
+            "level": "A2",
+            "end": 1645,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "h",
+                "pronunciation": 45,
+                "span": {
+                  "end": 1602,
+                  "start": 1591
+                }
+              },
+              {
+                "phoneme": "e",
+                "pronunciation": 11,
+                "span": {
+                  "end": 1606,
+                  "start": 1602
+                }
+              },
+              {
+                "phoneme": "l",
+                "pronunciation": 0,
+                "span": {
+                  "end": 1619,
+                  "start": 1606
+                }
+              },
+              {
+                "phoneme": "\\u03b8",
+                "pronunciation": 3,
+                "span": {
+                  "end": 1628,
+                  "start": 1619
+                }
+              },
+              {
+                "phoneme": "i",
+                "pronunciation": 69,
+                "span": {
+                  "end": 1645,
+                  "start": 1628
+                }
+              }
+            ],
+            "word": "healthy"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 100,
+                "spell": "a",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              },
+              {
+                "overall": 100,
+                "spell": "n",
+                "phoneme": [
+                  "n"
+                ]
+              },
+              {
+                "overall": 78,
+                "spell": "d",
+                "phoneme": [
+                  "d"
+                ]
+              }
+            ],
+            "start": 1650,
+            "pronunciation": 96,
+            "level": "A1",
+            "end": 1676,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1661,
+                  "start": 1650
+                }
+              },
+              {
+                "phoneme": "n",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1671,
+                  "start": 1661
+                }
+              },
+              {
+                "phoneme": "d",
+                "pronunciation": 78,
+                "span": {
+                  "end": 1676,
+                  "start": 1671
+                }
+              }
+            ],
+            "word": "and"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 20,
+                "spell": "g",
+                "phoneme": [
+                  "\\u0261"
+                ]
+              },
+              {
+                "overall": 8,
+                "spell": "oo",
+                "phoneme": [
+                  "\\u028a"
+                ]
+              },
+              {
+                "overall": 86,
+                "spell": "d",
+                "phoneme": [
+                  "d"
+                ]
+              }
+            ],
+            "start": 1679,
+            "pronunciation": 45,
+            "level": "A1",
+            "end": 1694,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u0261",
+                "pronunciation": 20,
+                "span": {
+                  "end": 1685,
+                  "start": 1679
+                }
+              },
+              {
+                "phoneme": "\\u028a",
+                "pronunciation": 8,
+                "span": {
+                  "end": 1689,
+                  "start": 1685
+                }
+              },
+              {
+                "phoneme": "d",
+                "pronunciation": 86,
+                "span": {
+                  "end": 1694,
+                  "start": 1689
+                }
+              }
+            ],
+            "word": "good"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 99,
+                "spell": "f",
+                "phoneme": [
+                  "f"
+                ]
+              },
+              {
+                "overall": 100,
+                "spell": "or",
+                "phoneme": [
+                  "\\u0254\\u02d0"
+                ]
+              }
+            ],
+            "start": 1694,
+            "pronunciation": 99,
+            "level": "A1",
+            "end": 1710,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "f",
+                "pronunciation": 99,
+                "span": {
+                  "end": 1707,
+                  "start": 1694
+                }
+              },
+              {
+                "phoneme": "\\u0254\\u02d0",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1710,
+                  "start": 1707
+                }
+              }
+            ],
+            "word": "for"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 100,
+                "spell": "m",
+                "phoneme": [
+                  "m"
+                ]
+              },
+              {
+                "overall": 100,
+                "spell": "y",
+                "phoneme": [
+                  "a\\u026a"
+                ]
+              }
+            ],
+            "start": 1710,
+            "pronunciation": 100,
+            "level": "A1",
+            "end": 1728,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "m",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1719,
+                  "start": 1710
+                }
+              },
+              {
+                "phoneme": "a\\u026a",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1728,
+                  "start": 1719
+                }
+              }
+            ],
+            "word": "my"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 98,
+                "spell": "b",
+                "phoneme": [
+                  "b"
+                ]
+              },
+              {
+                "overall": 100,
+                "spell": "r",
+                "phoneme": [
+                  "r"
+                ]
+              },
+              {
+                "overall": 55,
+                "spell": "ai",
+                "phoneme": [
+                  "e\\u026a"
+                ]
+              },
+              {
+                "overall": 18,
+                "spell": "n",
+                "phoneme": [
+                  "n"
+                ]
+              }
+            ],
+            "start": 1728,
+            "pronunciation": 78,
+            "level": "A2",
+            "end": 1770,
+            "pause": {
+              "duration": 60,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "b",
+                "pronunciation": 98,
+                "span": {
+                  "end": 1744,
+                  "start": 1728
+                }
+              },
+              {
+                "phoneme": "r",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1754,
+                  "start": 1744
+                }
+              },
+              {
+                "phoneme": "e\\u026a",
+                "pronunciation": 55,
+                "span": {
+                  "end": 1759,
+                  "start": 1754
+                }
+              },
+              {
+                "phoneme": "n",
+                "pronunciation": 18,
+                "span": {
+                  "end": 1770,
+                  "start": 1759
+                }
+              }
+            ],
+            "word": "brain."
+          }
+        ],
+        "sentence": "So I really like to eat that because that is actually healthy and good for my brain.",
+        "end": 1770,
+        "pronunciation": 76,
+        "start": 1199,
+        "grammar": {
+          "corrected": "So I really like to eat that because it is actually healthy and good for my brain.",
+          "operations": [
+            {
+              "end1": 9,
+              "end2": 9,
+              "start1": 8,
+              "start2": 8,
+              "type": "replace"
+            }
+          ]
+        }
+      },
+      {
+        "details": [
+          {
+            "phonics": [
+              {
+                "overall": 100,
+                "spell": "S",
+                "phoneme": [
+                  "s"
+                ]
+              },
+              {
+                "overall": 99,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0259\\u028a"
+                ]
+              }
+            ],
+            "start": 1830,
+            "pronunciation": 99,
+            "level": "A1",
+            "end": 1882,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "s",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1852,
+                  "start": 1830
+                }
+              },
+              {
+                "phoneme": "\\u0259\\u028a",
+                "pronunciation": 99,
+                "span": {
+                  "end": 1882,
+                  "start": 1852
+                }
+              }
+            ],
+            "word": "So"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 100,
+                "spell": "y",
+                "phoneme": [
+                  "j"
+                ]
+              },
+              {
+                "overall": 100,
+                "spell": "e",
+                "phoneme": [
+                  "e"
+                ]
+              },
+              {
+                "overall": 99,
+                "spell": "ah",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              }
+            ],
+            "start": 1889,
+            "pronunciation": 100,
+            "level": "A1",
+            "end": 1926,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "j",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1899,
+                  "start": 1889
+                }
+              },
+              {
+                "phoneme": "e",
+                "pronunciation": 100,
+                "span": {
+                  "end": 1905,
+                  "start": 1899
+                }
+              },
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 99,
+                "span": {
+                  "end": 1926,
+                  "start": 1905
+                }
+              }
+            ],
+            "word": "yeah,"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 55,
+                "spell": "I",
+                "phoneme": [
+                  "a\\u026a"
+                ]
+              }
+            ],
+            "start": 1929,
+            "pronunciation": 56,
+            "level": "A1",
+            "end": 1967,
+            "pause": {
+              "duration": 14,
+              "type": 1
+            },
+            "phonemes": [
+              {
+                "phoneme": "a\\u026a",
+                "pronunciation": 55,
+                "span": {
+                  "end": 1967,
+                  "start": 1929
+                }
+              }
+            ],
+            "word": "I"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 73,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0252"
+                ]
+              },
+              {
+                "overall": 42,
+                "spell": "f",
+                "phoneme": [
+                  "f"
+                ]
+              },
+              {
+                "overall": 88,
+                "spell": "te",
+                "phoneme": [
+                  "\\u0259"
+                ]
+              },
+              {
+                "overall": 100,
+                "spell": "n",
+                "phoneme": [
+                  "n"
+                ]
+              }
+            ],
+            "start": 1981,
+            "pronunciation": 74,
+            "level": "A1",
+            "end": 2014,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "\\u0252",
+                "pronunciation": 73,
+                "span": {
+                  "end": 1992,
+                  "start": 1981
+                }
+              },
+              {
+                "phoneme": "f",
+                "pronunciation": 42,
+                "span": {
+                  "end": 2004,
+                  "start": 1992
+                }
+              },
+              {
+                "phoneme": "\\u0259",
+                "pronunciation": 88,
+                "span": {
+                  "end": 2008,
+                  "start": 2004
+                }
+              },
+              {
+                "phoneme": "n",
+                "pronunciation": 100,
+                "span": {
+                  "end": 2014,
+                  "start": 2008
+                }
+              }
+            ],
+            "word": "often"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 86,
+                "spell": "ea",
+                "phoneme": [
+                  "i\\u02d0"
+                ]
+              },
+              {
+                "overall": 54,
+                "spell": "t",
+                "phoneme": [
+                  "t"
+                ]
+              }
+            ],
+            "start": 2014,
+            "pronunciation": 72,
+            "level": "A1",
+            "end": 2030,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "i\\u02d0",
+                "pronunciation": 86,
+                "span": {
+                  "end": 2025,
+                  "start": 2014
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 54,
+                "span": {
+                  "end": 2030,
+                  "start": 2025
+                }
+              }
+            ],
+            "word": "eat"
+          },
+          {
+            "phonics": [
+              {
+                "overall": 56,
+                "spell": "ch",
+                "phoneme": [
+                  "t\\u0283"
+                ]
+              },
+              {
+                "overall": 11,
+                "spell": "o",
+                "phoneme": [
+                  "\\u0251\\u02d0"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "c",
+                "phoneme": [
+                  "k"
+                ]
+              },
+              {
+                "overall": 0,
+                "spell": "ol",
+                "phoneme": [
+                  "l"
+                ]
+              },
+              {
+                "overall": 7,
+                "spell": "a",
+                "phoneme": [
+                  "\\u026a"
+                ]
+              },
+              {
+                "overall": 54,
+                "spell": "te",
+                "phoneme": [
+                  "t"
+                ]
+              }
+            ],
+            "start": 2030,
+            "pronunciation": 9,
+            "level": "A2",
+            "end": 2073,
+            "pause": {
+              "duration": 0,
+              "type": 0
+            },
+            "phonemes": [
+              {
+                "phoneme": "t\\u0283",
+                "pronunciation": 56,
+                "span": {
+                  "end": 2040,
+                  "start": 2030
+                }
+              },
+              {
+                "phoneme": "\\u0251\\u02d0",
+                "pronunciation": 11,
+                "span": {
+                  "end": 2048,
+                  "start": 2040
+                }
+              },
+              {
+                "phoneme": "k",
+                "pronunciation": 0,
+                "span": {
+                  "end": 2058,
+                  "start": 2048
+                }
+              },
+              {
+                "phoneme": "l",
+                "pronunciation": 0,
+                "span": {
+                  "end": 2062,
+                  "start": 2058
+                }
+              },
+              {
+                "phoneme": "\\u026a",
+                "pronunciation": 7,
+                "span": {
+                  "end": 2068,
+                  "start": 2062
+                }
+              },
+              {
+                "phoneme": "t",
+                "pronunciation": 54,
+                "span": {
+                  "end": 2073,
+                  "start": 2068
+                }
+              }
+            ],
+            "word": "chocolate."
+          }
+        ],
+        "sentence": "So yeah, I often eat chocolate.",
+        "end": 2073,
+        "pronunciation": 68,
+        "start": 1830,
+        "grammar": {}
+      }
+    ],
+    "speed": 124,
+    "equivalent_scores": {
+      "toefl_scores": {
+        "overall": 99,
+        "fluency": 101,
+        "grammar": 97,
+        "pronunciation": 95,
+        "vocab": 95
+      },
+      "pte_scores": {
+        "overall": 72,
+        "fluency": 75,
+        "grammar": 70,
+        "pronunciation": 68,
+        "vocab": 77
+      },
+      "duolingo_scores": {
+        "overall": 130,
+        "fluency": 135,
+        "grammar": 130,
+        "pronunciation": 125,
+        "vocab": 135
+      },
+      "percentage_scores": {
+        "overall": 76,
+        "fluency": 78,
+        "grammar": 74,
+        "pronunciation": 73,
+        "vocab": 79
+      },
+      "ket_scores": {
+        "overall": 150,
+        "fluency": 150,
+        "grammar": 150,
+        "pronunciation": 150,
+        "vocab": 150
+      },
+      "cefr_levels": {
+        "overall": "C1",
+        "fluency": "C1",
+        "grammar": "C1",
+        "pronunciation": "C1",
+        "vocab": "C1"
+      },
+      "pet_scores": {
+        "overall": 170,
+        "fluency": 170,
+        "grammar": 170,
+        "pronunciation": 170,
+        "vocab": 170
+      }
+    },
+    "pronunciation_stats": {
+      "good_word_pct": 34,
+      "fair_word_pct": 26,
+      "poor_word_pct": 40
+    }
+  },
+  "applicationId": "1718172209000328",
+  "eof": 1,
+  "dtLastResponse": "2024-07-17 14:33:42:660",
+  "params": {
+    "audio": {
+      "sampleBytes": 2,
+      "audioType": "wav",
+      "channel": 1,
+      "sampleRate": 16000
+    },
+    "app": {
+      "sig": "820b3fc300518ccf897c12ec69d045da933e50f5",
+      "timestamp": "1721198014",
+      "userId": "guest",
+      "applicationId": "1718172209000328"
+    },
+    "request": {
+      "question_prompt": "Do you often eat chocolate?",
+      "penalize_offtopic": 1,
+      "coreType": "speak.eval.pro",
+      "task_type": "ielts_part1",
+      "test_type": "ielts",
+      "model": "non_native",
+      "phoneme_output": 1
+    }
+  },
+  "recordId": "669765bec14f76200001fc42"
+}
