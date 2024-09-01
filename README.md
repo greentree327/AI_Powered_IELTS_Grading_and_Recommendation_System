@@ -80,4 +80,10 @@ After obtaining the `result.json` file from Step 3, follow these steps to analyz
    - Load the performance data files into the corresponding OpenAI assistance:
 
    - Generate tailored feedback and recommendations based on the performance data and system prompts.
+   - 
+**Acknowledgments**
 
+- **Speechsuper**: For providing the API used for IELTS assessment.
+- **OpenAI GPT**: For enabling the generation of detailed feedback and recommendations.
+- **Pydub**: For audio format conversion and processing.
+- **Requests**: For handling API interactions and data retrieval.
