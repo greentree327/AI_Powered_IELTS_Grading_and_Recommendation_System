@@ -28,11 +28,11 @@ secretKey = "your_secret_key_here"
 
 Replace `"your_app_key_here"` and `"your_secret_key_here"` with the values you obtained from Speechsuper.
 
-### Step 3: Running the Sample Code
+### Step 3: Running the SpeechSuper Code
 
 To see how the API can be used, follow these steps:
 
-1. **Read Through the `sample_code.ipynb` Notebook:**
+1. **Read Through the `SpeechSuper.ipynb` Notebook:**
    - The notebook provides a detailed example of how to use the Speechsuper API for IELTS assessment, including audio format conversion and result extraction.
 
 2. **Modify the Example Code:**
@@ -45,3 +45,39 @@ To see how the API can be used, follow these steps:
    ```
 
    Ensure that the `audio` variable points to a valid audio file path and the `q` variable contains the appropriate question text.
+
+### Step 4: Speech Performance Analysis
+
+After obtaining the `result.json` file from Step 3, follow these steps to analyze the speech performance:
+
+1. **Process the Results:**
+
+   Use the `run_notebook.py` script to process the `result.json` file. This script will:
+
+   - **Read** the assessment results from `result.json`.
+   - **Extract** performance data for each IELTS speaking category: Fluency, Grammar, Lexical Resource, and Pronunciation.
+   - **Convert** the performance data into natural language summaries and save them to appropriate files.
+
+2. **Generated Outputs:**
+
+   The script will produce the following files:
+
+   - **`Fluency_Input_data_to_prompt.txt`**: Contains natural language summaries of fluency performance.
+   - **`Lexical_Input_data_to_prompt.txt`**: Contains natural language summaries of lexical resource performance.
+   - **`Grammar_Input_data_to_prompt.txt`**: Contains natural language summaries of grammar performance.
+   - **`Pronunciation_Input_data_to_prompt.json`**: Contains detailed JSON analysis of pronunciation performance.
+
+**Step 5: Generating Tailor-Made Feedback and Recommendations**
+
+1. **Prepare System Prompts**: 
+   - In OpenAI assistance, set the following system prompts:
+     - `System_prompt_Fluency.txt`
+     - `System_prompt_Grammar.txt`
+     - `System_prompt_Lexical.txt`
+     - `System_prompt_Pronunciation.txt`
+
+2. **Match Performance Data**:
+   - Load the performance data files into the corresponding OpenAI assistance:
+
+   - Generate tailored feedback and recommendations based on the performance data and system prompts.
+
